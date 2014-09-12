@@ -166,6 +166,7 @@ input[type="text"]:active {
 	font-size: 11px;
 	font-weight: bold;
 	border-radius: 3%/10%;
+	border-color: white;
 	border-shadow:0px 0px 0px;
 
 }
@@ -179,7 +180,11 @@ input[type="text"]:active {
 	font-family: arial, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
+	border-color: white;
 	border-radius: 3%/10%;
+}
+#luck:hover,#googleSearch:hover{
+	border: 1px solid #C6C7C5;
 }
 /* LINKS AFTER SEARCH*/
 .content ul{
