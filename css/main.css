@@ -186,6 +186,9 @@ input[type="text"]:active {
 #luck:hover,#googleSearch:hover{
 	border: 1px solid #C6C7C5;
 }
+#signInLink{
+text-decoration: none;
+}
 /* LINKS AFTER SEARCH*/
 .content ul{
 	text-align: center;

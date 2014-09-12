@@ -1,25 +1,9 @@
 @media screen and (max-width: 480px){
-	footer{
-	
-	height: 50px;
-	
+footer{
+		height: 50px;
 }
-
 footer nav {
 	float: left;
 	margin: 0px;
 }
-
-
-
-/*#nav1_footer li a{
-	color: #808080;
-	font-family: arial, sans-serif;
-	font-size: 13px;
-}
-#nav2_footer{
-	float: right;
-	margin-top: -20px;
-	margin-bottom: 0px;
-}*/
 }
