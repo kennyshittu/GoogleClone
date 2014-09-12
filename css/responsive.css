@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px){
+footer{
+		height: 50px;
+}
+footer nav {
+	float: left;
+	margin: 0px;
+}
+}

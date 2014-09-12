@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/*BODY*/
+body{
+	background-color: #fff;
+	height: 100%;
+	margin: 0px 0px;
+	
+}
+/*HEADER*/
+header{
+	margin: 0px 30px;
+	padding: 0px;
+	height: 60px;
+}
+/* HEADER NAVIGATION*/
+nav{
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 0px ;
+}
+nav ul {
+	padding-left: 0px;
+}
+nav li {
+	display: inline-block;
+	padding-left: 15px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+nav li a {
+	text-decoration: none;
+	color: #000;
+}
+nav li a:hover {
+	text-decoration: underline;
+	
+}
+.navIcon:after{
+	content: url('../img/apps.png');
+	padding: 0px;
+
+}
+.signIn{
+	background-color: #0080ff;
+	height: 30px;
+	width: 71px;
+	padding: 0px 12px;
+	border: 1px solid #4285f4;
+	color: #fff;
+	font:bold;
+	font-weight: 900;
+	border-radius: 3%/10%;
+
+}
+
+/* FOOTER NAVIGATION*/
+#nav1_footer{
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #808080;
+}
+#nav1_footer li a{
+	color: #808080;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+#nav2_footer{
+	float: right;
+	margin-top: -20px;
+	margin-bottom: 0px;
+}
+#nav2_footer li a{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #808080;
+}
+
+/*SECTION*/
+
+.belowHead{
+	padding-top: 112px;
+	padding-bottom: 0px;
+}
+.content > div{
+	clear:both;
+}
+.google{
+	background-image:url('../img/google_logo.png'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 16.8125rem;
+	height: 5.9375rem; 
+	position: relative;
+	margin: auto auto;
+}
+.google:after{
+	content: "Nigeria";
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #777;
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.content form{
+	text-align:center;
+	line-height: 40px;
+}
+.content input{
+	height: 1.4375rem;
+	width: 35.75rem;
+}
+.formDiv {
+	margin-top: 24px;
+}
+.formDiv input {
+    border: 1px solid #c0c0c0; 
+}
+input[type="text"]:hover {
+    border: 1px solid #808080; 
+}
+input[type="text"]:active {
+    border: 1px solid #39f; 
+    box-shadow:none;
+}
+#search{
+	background-image:url('../img/download.gif'); 
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 10px;
+	background-size: 15px 20px;
+	margin: auto auto;
+	width: 50%;
+	
+	
+}
+/* SEARCH BUTTONS*/
+#googleSearch {
+	background-color:#efefef;
+	height: 29px;
+	width: 98px;
+	padding: 0px auto;
+	color: #000;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 3%/10%;
+	border-color: white;
+	border-shadow:0px 0px 0px;
+
+}
+#luck{
+	background-color:#efefef;
+	height: 29px;
+	width: 114px;
+	padding: 0px auto;
+	margin-left: 10px;
+	color: #000;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-color: white;
+	border-radius: 3%/10%;
+}
+#luck:hover,#googleSearch:hover{
+	border: 1px solid #C6C7C5;
+}
+#signInLink{
+text-decoration: none;
+}
+/* LINKS AFTER SEARCH*/
+.content ul{
+	text-align: center;
+}
+.content li{
+	display: inline-block;
+	padding-left: 10px;
+}
+.content a{
+	text-decoration: none;
+	color: blue;
+}
+.content a:hover{
+	text-decoration: underline;
+}
+.lastDiv {
+	margin-top: 35px;
+	margin-bottom: 240px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+
+}
+/* FOOTER */
+footer{
+	border-top: 1px solid #e0e0e0;
+	height: 40px;
+	min-width: 100%;
+	margin: 0px 0px;
+	background-color: #efefef;
+	position: fixed;
+	bottom: 0;
+}
+footer ul {
+	padding: 10px;
+	
+	margin:0px 0px;
+}
+footer li {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+
